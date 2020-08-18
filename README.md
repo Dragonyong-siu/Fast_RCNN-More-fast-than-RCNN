@@ -14,3 +14,5 @@
  4.Fast_RCNN_Loss : L_cls(p, u) + lamda * [u >= 1] * L_loc(t_u, v)
 
  5.Train(Classification + Bbox_Regression)
+
+ #didn't code the nms part, because it was all part of other work, faster rcnn. you can check them in code of faster rcnn.
